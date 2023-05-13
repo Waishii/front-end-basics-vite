@@ -1,0 +1,44 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.card{
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+button{
+  background-color: #408340;
+  color: white;
+  margin: 0;
+  padding: 5px;
+  border-radius: 5px;
+  border:none;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+button, input{
+  margin: 5px;
+}
+
+label{
+  margin-left: 5px;
+}
+
+.half{
+  width: 50%;
+  display: flex;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;/*row um do lado do outro e collum um em baixo do outro, precisa do display: flex*/
+}
